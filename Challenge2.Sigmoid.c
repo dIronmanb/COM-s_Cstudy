@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <math.h>
 #define NUM 5
-//double exp(double x) eÀÇ xÁ¦°öÀ» ±¸ÇÔ.
+//double exp(double x) eì˜ xì œê³±ì„ êµ¬í•¨.
 
 void InputArray(double[], int size);
 void SigmoidArray(double [], int size);
@@ -22,7 +22,7 @@ int main(void)
 
 void InputArray(double a[], int size)
 {
-	printf("¹è¿­¿¡ ³ÖÀ» °ªÀ» ÁöÁ¤ÇÏ½Ã¿À.\n");
+	printf("ë°°ì—´ì— ë„£ì„ ê°’ì„ ì§€ì •í•˜ì‹œì˜¤.\n");
 	for (int i = 0; i < size; i++)
 	{
 		printf("[%d] : ", i);
@@ -32,7 +32,7 @@ void InputArray(double a[], int size)
 }
 void ShowArray(double a[], int size)
 {
-	printf("¹è¿­ Ãâ·Â\n");
+	printf("ë°°ì—´ ì¶œë ¥\n");
 	for (int i = 0; i < size; i++)
 	{
 		printf("a[%d] : %.6f\n", i, a[i]);
